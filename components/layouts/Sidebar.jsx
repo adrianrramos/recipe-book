@@ -9,7 +9,7 @@ export default function Sidebar() {
                     <SidebarIcon linkTo="/dashboard/create">
                         <i className="fas fa-plus"></i>
                     </SidebarIcon>
-                    <SidebarIcon linkTo="/dashboard/user">
+                    <SidebarIcon linkTo="/dashboard/1">
                         <i className="fas fa-book-open"></i>
                     </SidebarIcon>
                 </div>
