@@ -1,0 +1,18 @@
+.container {
+    border-right: 1px solid black;
+    width: 25%;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer > input {
+    height: 2rem;
+    margin: 1rem 2rem;
+}
+
+.formContainer > button {
+    margin: 1rem 2rem;
+}
