@@ -13,10 +13,12 @@ export default function Create() {
     useEffect(() => {
         let session_post = JSON.parse(localStorage.getItem("current_post"))
 
-        setTitle(session_post.title)
-        setCaption(session_post.caption)
-        setIngredients(session_post.ingredients)
-        setSteps(session_post.steps)
+        if (session_post) {
+            setTitle(session_post.title)
+            setCaption(session_post.caption)
+            setIngredients(session_post.ingredients)
+            setSteps(session_post.steps)
+        }
     }, [])
 
     useEffect(() => {

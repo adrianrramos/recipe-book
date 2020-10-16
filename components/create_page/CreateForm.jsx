@@ -20,6 +20,7 @@ export default function CreateForm({
                     name="title"
                     id="title-input"
                     placeholder="Write your title here..."
+                    autoComplete="off"
                 />
                 <input
                     value={caption}
@@ -28,6 +29,7 @@ export default function CreateForm({
                     name="caption"
                     id="caption-input"
                     placeholder="Write your caption here..."
+                    autoComplete="off"
                 />
                 <input
                     value={ingredients}
@@ -36,6 +38,7 @@ export default function CreateForm({
                     name="ingredients"
                     id="ingredients-input"
                     placeholder="Write the ingredients here..."
+                    autoComplete="off"
                 />
                 <input
                     value={steps}
@@ -44,12 +47,14 @@ export default function CreateForm({
                     name="steps"
                     id="steps-input"
                     placeholder="Write the recipe steps here..."
+                    autoComplete="off"
                 />
                 <input
                     type="text"
                     name="image input"
                     id="image input-input"
                     placeholder="Soon to become image uploader"
+                    autoComplete="off"
                 />
                 <button>Save Your Recipe</button>
             </form>

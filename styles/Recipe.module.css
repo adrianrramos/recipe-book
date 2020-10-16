@@ -1,0 +1,36 @@
+.container {
+    padding: 0 5rem;
+}
+
+.header {
+    display: flex;
+}
+
+.header > h1 {
+    width: 50%;
+}
+
+.header > p {
+    width: 50%;
+}
+
+.media {
+    width: 25rem;
+    margin: 0 auto;
+}
+
+.media > img {
+    max-width: 25rem;
+}
+
+.content {
+    display: flex;
+}
+
+.content > ul {
+    width: 50%;
+}
+
+.content > p {
+    width: 50%;
+}
