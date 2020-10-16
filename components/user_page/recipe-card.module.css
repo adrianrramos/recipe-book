@@ -1,0 +1,20 @@
+.container {
+    height: 10rem;
+    width: 17.5rem;
+    margin: 2.5rem 1.75rem;
+    border-radius: 5px;
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.container:hover {
+    margin-top: 2rem;
+}
+
+.image {
+    height: 10rem;
+    width: 17.5rem;
+    object-fit: cover;
+    border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+.container {
+    margin: 2rem 0;
+}
+
+.avatar {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar > img {
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userDetails {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.userDetails > p {
+    text-align: center;
+}
